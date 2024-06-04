@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="comprador.GUIComprador">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="e11fb" binding="menuSuperior">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="60ea1" binding="panelLibros" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Libros"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="dadc0" binding="panelNombre" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="ee4e" class="javax.swing.JLabel" binding="labelNombre">
+                    <constraints/>
+                    <properties>
+                      <text value="Nombre :"/>
+                    </properties>
+                  </component>
+                  <hspacer id="d44b1">
+                    <constraints/>
+                  </hspacer>
+                  <vspacer id="9b8b">
+                    <constraints/>
+                  </vspacer>
+                  <component id="36b53" class="javax.swing.JTextField" binding="txNombre">
+                    <constraints/>
+                    <properties>
+                      <minimumSize width="160" height="30"/>
+                      <preferredSize width="160" height="30"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="40c15" binding="panelBoton" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="South"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <vspacer id="98c67">
+                    <constraints/>
+                  </vspacer>
+                  <component id="6c0bd" class="javax.swing.JButton" binding="btnAceptar">
+                    <constraints/>
+                    <properties>
+                      <text value="Interesado"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="6b01b" binding="panelPrecio" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a8593" class="javax.swing.JLabel" binding="labelPrecio">
+                    <constraints/>
+                    <properties>
+                      <text value="Precio :"/>
+                    </properties>
+                  </component>
+                  <hspacer id="47cac">
+                    <constraints/>
+                  </hspacer>
+                  <vspacer id="2a348">
+                    <constraints/>
+                  </vspacer>
+                  <component id="e8660" class="javax.swing.JTextField" binding="txPrecio">
+                    <constraints/>
+                    <properties>
+                      <minimumSize width="180" height="30"/>
+                      <preferredSize width="180" height="30"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="7485c" binding="panelSubastas" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Subastas"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
